@@ -18,3 +18,4 @@ Explanation:
 
 // Solution
 
+const automorphic = n => String(n*n).endsWith(String(n)) ? "Automorphic" : "Not!!";
